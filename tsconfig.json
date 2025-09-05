@@ -1,18 +1,19 @@
 {
-  "compilerOptions": {
-    "target": "es2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true
+  "name": "news-aggregator-az",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
-}
+  "dependencies": {
+    "classnames": "^2.3.2",
+    "framer-motion": "^11.0.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^1
