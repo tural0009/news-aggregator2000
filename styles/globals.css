@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+html, body, #__next { height: 100%; }
+body { @apply bg-base-bg text-base-text; }
+.dark body { @apply bg-dark-bg text-dark-text; }
+
+.container { @apply max-w-4xl mx-auto px-4; }
+.card { @apply bg-base-card dark:bg-dark-card border border-base-border dark:border-dark-border rounded-2xl; }
+.btn { @apply border border-base-border dark:border-dark-border rounded-xl px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition; }
+.input { @apply border border-base-border dark:border-dark-border rounded-xl px-3 py-2 text-sm bg-white dark:bg-[#0b1220] focus:outline-none focus:ring; }
+.select { @apply border border-base-border dark:border-dark-border rounded-xl px-3 py-2 text-sm bg-white dark:bg-[#0b1220]; }
+.muted { @apply text-base-mutetext dark:text-dark-mutetext; }
